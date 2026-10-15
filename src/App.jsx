@@ -8,9 +8,12 @@ function App() {
       <Navbar />
 
       <div className="container">
-        <h2 className="mb-4">Directorio de Alumnos</h2>
-
-        <Contador />
+        <div className="page-header mb-3">
+          <h2 className="mb-1">Directorio de Alumnos</h2>
+          <p className="mb-0">
+            Gestiona el estado de matrícula de los estudiantes.
+          </p>
+        </div>
 
         <div className="row">
           <AlumnoCard
@@ -67,6 +70,8 @@ function App() {
             estadoInicial="Matriculado"
           />
         </div>
+
+        <Contador />
       </div>
     </>
   );

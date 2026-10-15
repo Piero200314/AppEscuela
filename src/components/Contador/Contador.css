@@ -1,0 +1,33 @@
+.contador-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contador-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 1rem 2rem rgba(30, 58, 138, 0.15) !important;
+}
+
+.contador-card h4 {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+/* Número grande del contador */
+.contador-numero {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.contador-card .btn {
+  border-radius: 10px;
+  min-width: 110px;
+  font-weight: 500;
+}
